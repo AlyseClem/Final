@@ -1,0 +1,25 @@
+#clockDisplay {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    color: #63639c;
+    background-color: #efeff5;
+    border: 3px solid #8383af;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px #000080;
+    width: 740px;
+    padding:10px;
+    text-align: center;
+    text-shadow: 2px 2px 2px #31314e;
+}
+.container {
+    margin: 0 auto;
+}
+
+#alignthisonly {
+    text-align: center;
+}
+
+#only {
+    background-color: #8383af;
+}

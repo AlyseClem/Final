@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(163, 248, 248);
+}
+#projectheading{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+   }
+
+#projectheading1 {
+    font-family: 'Sedgwick Ave', cursive;
+    text-align: center;
+}
+
+#pic {
+    float: center;
+}

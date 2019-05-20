@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AlyseC DOMinator</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/dominator.css">
+
+<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+</head>
+<body>
+    <h1 id = "projectheading">The DOM-inator</h1>
+    <h2 id = "projectheading">Alyse C / May 2019</h2>
+    <div id="page"></div>
+    <hr class="my-4">
+    <div id="wrap">
+    <div class="card bg-dark m-auto w-75">
+    <h5 class="card-header text-light">
+        <span class="h1 text-warning font-italic mr-2">JavaScript</span>DOM-ELEMENTOR
+        <span class="btn btn-sm btn-danger float-right" onClick="hide_Ele()">x</span>
+    </h5> 
+    <div class="card-body row">
+        <div class="input-group">
+            <input type="text" class="col-2" placeholder="tagName">
+            <input type="text" class="col-10" placeholder="className">
+            <input type="text" class="col-2" placeholder="id">
+            <input type="text" class="col-8" placeholder="innerHTML">
+            <input type="text" class="col-2" placeholder="parent id">
+        </div>
+        <div class="btn-group mt-2">
+        <span class="btn btn-warning" onClick="create_Ele()">Create New Element</span>
+        <span class="btn btn-danger" onClick="remove_Ele()">Remove Last Element</span>
+        <span class="btn btn-outline-secondary" onClick="reset()">Reset</span>
+
+        </div>
+     </div>
+ </div>
+</div>
+<br>
+<h3 id="projectheading1">This is an element creator in Javascript using DOM.
+    <br>
+    Fill in the boxes to create an element. 
+    <br>
+    Choose what html tag you want in the tagName box and then put the class and id name in the correct spots. 
+    <br>
+    Then in the innerHTML box, type whatever words you want displayed. Once you have done that, click on "Create Element"
+    to create it
+    <br>
+    <br>
+    Click on the button "Remove Last Element" to remove the last element that was created
+    <br>
+    <br>
+    If you click on the "Reset" button, it will reset all of the inputs
+    <br>
+    <br>
+    If you click on the red "x" the element creator will disappear. To bring it back, click "Show Panel"
+</h3>
+<div id="pic">
+    <img src="images/mainpic.png" alt="main">
+    <img src="images/jspic.png" alt="js">
+</div>
+    <script src="js/app.js"></script>
+</body>
+</html>
